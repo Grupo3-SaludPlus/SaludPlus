@@ -66,6 +66,10 @@ main {
   transform: translateY(-5px);
 }
 
+.content {
+  flex: 1;
+}
+
 .logo-ficticio {
   font-weight: bold;
   font-size: 20px;

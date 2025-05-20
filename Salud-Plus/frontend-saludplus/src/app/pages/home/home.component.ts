@@ -3,7 +3,9 @@ import { HeroComponent } from '../../components/hero/hero.component';
 import { ServicesComponent } from '../../components/services/services.component';
 import { AboutUsComponent } from '../../components/about-us/about-us.component';
 import { InsuranceComponent } from '../../components/insurance/insurance.component';
-
+// ...existing code...
+import { ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
+// ...existing code...
 @Component({
   selector: 'app-home',
   standalone: true,

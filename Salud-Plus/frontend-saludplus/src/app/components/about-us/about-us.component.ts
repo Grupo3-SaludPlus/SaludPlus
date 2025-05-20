@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-
+// ...existing code...
+import { ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
+// ...existing code...
 @Component({
   selector: 'app-about-us',
   standalone: true,

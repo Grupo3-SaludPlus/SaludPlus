@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-
+// ...existing code...
+import { ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
+// ...existing code...
 @Component({
   selector: 'app-navbar',
   standalone: true,
@@ -13,6 +15,6 @@ export class NavbarComponent {
     { path: '/', label: 'Inicio' },
     { path: '/doctors', label: 'Nuestros Médicos' },
     { path: '/appointments', label: 'Agenda' },
-    { path: '/register', label: 'Registro' }
+    { path: '/login', label: 'Cuenta' } // Cambiado de "Registro" a "Cuenta"
   ];
 }
